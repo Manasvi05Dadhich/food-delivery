@@ -2,25 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 const logo = new URL('./assets/anya.jpg', import.meta.url);
 import './style.css';
-
-
-const AppBar = () => {
-    return <div className="Appbar">
-        <div className="logo">
-            <img
-                src={logo.href} alt="Logo" />
-        </div>
-
-        <div className="nav-items">
-            <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Contact</li>
-                <li>Cart</li>
-            </ul>
-        </div>
-    </div>
-}
+import AppBar from './components/Appbr';
 
 const RestCard = () => {
     return <div className='Res-cards'>
@@ -60,6 +42,8 @@ const Applayout = () => {
         <Body />
     </div>
 }
+
+
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(<Applayout />);   
