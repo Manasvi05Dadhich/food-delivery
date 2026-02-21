@@ -1,3 +1,5 @@
+const logo = new URL('../../assets/anya.jpg', import.meta.url);
+
 const AppBar = () => {
     return <div className="Appbar">
         <div className="logo">
