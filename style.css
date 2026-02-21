@@ -1,0 +1,73 @@
+.App {
+    padding: auto;
+    margin: auto;
+}
+
+.Appbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid black;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.logo img {
+    width: 80%;
+    height: 80%;
+    object-fit: cover;
+    padding: 10px;
+    margin: 10px;
+}
+
+.nav-items>ul>li {
+    list-style: none;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.nav-items>ul {
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+}
+
+.cards {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 10px;
+}
+
+.Res-cards {
+    margin: 5px;
+    padding: 10px;
+    width: 200px;
+    height: 400px;
+    background-color: floralwhite;
+    transition: all 0.3s ease;
+    border: 1px solid black;
+}
+
+.Res-cards:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+    transform: scale(1.05);
+    cursor: pointer;
+    border: 1px solid black;
+}
+
+.search {
+    padding: 10px;
+}
+
+.pic {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 5px;
+}
